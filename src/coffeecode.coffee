@@ -62,11 +62,11 @@ class GameOfLife
       y = cell.row * @cellSize
 
       if cell.isAlive
-        fillStyle = 'rgb(242, 198, 65)'
+        fillStyle = 'rgb(142, 192, 64)'
       else
         fillStyle = 'rgb(38, 38, 38)'
 
-      @drawingContext.strokeStyle = 'rgba(242, 198, 65, 0.1)'
+      @drawingContext.strokeStyle = 'rgba(142, 198, 65, 0.1)'
       @drawingContext.strokeRect x, y, @cellSize, @cellSize
 
       @drawingContext.fillStyle = fillStyle
