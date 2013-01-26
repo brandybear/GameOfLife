@@ -1,13 +1,12 @@
 class GameOfLife
   currentCellGeneration: null
   cellSize: 7
-  numberOfRows: 50
-  numberOfColumns: 50
+  numberOfRows: 40
+  numberOfColumns: 40
   seedProbability: 0.5
   tickLength: 100
   canvas: null
   drawingContext: null
-
 
   constructor: ->
     @createCanvas()
